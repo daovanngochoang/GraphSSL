@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "astype",
+        "conv",
+        "Conv",
+        "convolutional",
+        "DGCNN",
+        "keras",
+        "mnist",
+        "relu"
+    ],
+    "python.formatting.provider": "black"
+}

@@ -52,6 +52,6 @@ class DGCNN(tf.keras.Model):
         x_out = self.flatten_layer(x_out)
         x_out = self.dense_layer1(x_out)
         x_out = self.dropout_layer(x_out)
-        prediction = self.dgcnn_model.prediction(x_out)
+        prediction = self.prediction(x_out)
 
         return prediction, graphs_cnn_vector
